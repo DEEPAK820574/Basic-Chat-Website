@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+section{
+    margin-top: 30px;
+    border: 1px red;
+    height: 600px;
+    width: 60%;
+    min-width: 60%;
+    background-color: rgb(243, 210, 227);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+}
+img{
+    height: 40px;
+    width:auto;
+    margin-right: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px grey;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+.message_area{
+    height: 500px;
+    padding: 16px ;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea{
+width: 100%;
+border-radius:0px 0px 15px 15px ;
+border: none;
+padding: 20px;
+font-size: 16px;
+outline: none;
+background: #FBFBFB;
+}
+.message{
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming{
+    background-color:rgb(187, 106, 245) ;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    height: auto;
+    word-wrap: break-word;
+}
+.outgoing{
+    margin-left: auto;
+    height: auto;
+    word-wrap: break-word;
+    background-color: rgb(207, 244, 245);
+    color: black;
+    box-shadow: 1px 1px 1px grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+
+}
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 13px;
+    font-family: cursive;
+}
